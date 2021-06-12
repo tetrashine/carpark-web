@@ -1,0 +1,47 @@
+{
+  "name": "carpark2",
+  "version": "0.0.1",
+  "description": "A project to make use of procedural modelling to generate car park lots in GIS based on rules (e.g. size of carpark lots, width of roads, etc...).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js start",
+    "dev-client": "webpack serve",
+    "dev-server": "nodemon server.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetrashine/carpark2.git"
+  },
+  "author": "louisz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tetrashine/carpark2/issues"
+  },
+  "homepage": "https://github.com/tetrashine/carpark2#readme",
+  "dependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "@turf/area": "^6.3.0",
+    "@turf/helpers": "^6.3.0",
+    "@turf/turf": "^6.3.0",
+    "@turf/unkink-polygon": "^6.3.0",
+    "babel-loader": "^8.2.2",
+    "leaflet": "^1.7.1",
+    "leaflet-draw": "^1.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.0",
+    "react-leaflet-draw": "^0.19.8",
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "devDependencies": {}
+}
